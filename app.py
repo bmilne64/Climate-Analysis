@@ -142,14 +142,6 @@ def start(start = None, end = None):
     end_list = list(np.ravel(start_end))  
     
     return jsonify(end_list)  
-    
-    
-                                                                                          
-@app.route("/api/v1.0/<start>/<end>")
-def startend(start, end):
-    # Create our session (link) from Python to the DB
-    session = Session(engine)
-                                        
-    start_end = session.query(func.max(Measurement.tobs),func.min(Measurement.tobs),func.avg(Measurement.tobs)).filter(Station.id == 7).filter(Measurement.station == Station.station).filter(Measurement.date >= start).filter(Measurement.date <= end).all()            
+                                                                                           
 if __name__ == '__main__':
         app.run(debug=True)
