@@ -2,7 +2,7 @@
 
 ### Part 1: Climate Analysis and Exploration
 
-In this section, I used Python and SQLAlchemy to perform basic climate analysis and data exploration of the climate database. 
+In this project, I used Python and SQLAlchemy to perform basic climate analysis and data exploration of the climate database. 
 
 First, I found the most recent date in the dataset and uised it to retrieve the previous 12 months of precipitation data by querying the 12 previous months of data. I loaded the query results into a Pandas DataFrame and plotted the results using the Dataframe plot method. 
 
