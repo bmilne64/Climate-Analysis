@@ -1,10 +1,10 @@
-# sqlalchemy-challenge
+# Climate Analysis 
 
 ### Part 1: Climate Analysis and Exploration
 
 In this project, I used Python and SQLAlchemy to perform basic climate analysis and data exploration of the climate database. 
 
-First, I found the most recent date in the dataset and uised it to retrieve the previous 12 months of precipitation data by querying the 12 previous months of data. I loaded the query results into a Pandas DataFrame and plotted the results using the Dataframe plot method. 
+First, I found the most recent date in the dataset and used it to retrieve the previous 12 months of precipitation data by querying the 12 previous months of data. I loaded the query results into a Pandas DataFrame and plotted the results using the Dataframe plot method. 
 
 Then I designed a query to calculate the total number of stations in the dataset, and a query to find the most active stations. Using the most active station id, I calculated the lowest, highest, and average temperatures.
 
