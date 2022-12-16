@@ -10,7 +10,7 @@ Then I designed a query to calculate the total number of stations in the dataset
 
 Finally, I designed a query to retrieve the previous 12 months of temperature observation data (TOBS). I filtered the data by the station with the highest number of observations, and queried the previous 12 months of temperature observation data for this station. Then, I plotted the results as a histogram. 
 
-### Part 2: Design Your Climate App
+### Part 2: Designing the Climate App
 
 After completing my initial analysis, I designed a Flask API based on the queries that I developed. 
 
