@@ -36,7 +36,7 @@ Analyzes Climate Data using Python, SQLAlchemy Queries and a Flask API
 * Design a query to get the previous 12 months of temperature observation (TOBS) data
     * Plot the results as a histogram
 
-![](images/stats.png)
+![](images/graph2.png)
 
 ---------------------------------------------------
 
@@ -46,7 +46,7 @@ Analyzes Climate Data using Python, SQLAlchemy Queries and a Flask API
 
 * Design a Flask API based on the queries that were just developed
 * Create the routes for each page
-    */
+    * /
         * Start at the homepage
         * List all the available routes
     * /api/v1.0/precipitation
